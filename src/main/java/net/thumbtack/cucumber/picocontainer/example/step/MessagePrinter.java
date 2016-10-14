@@ -1,4 +1,4 @@
-package net.thumbtack.cucumber.picocontainer.example;
+package net.thumbtack.cucumber.picocontainer.example.step;
 
 import cucumber.api.java.en.Then;
 import net.thumbtack.cucumber.picocontainer.example.util.Context;
@@ -11,7 +11,7 @@ public class MessagePrinter {
         this.context = context;
     }
 
-    @Then("print this message")
+    @Then("^print this message$")
     public void printMessage() {
         final String message = context.getValue(Field.MESSAGE);
 

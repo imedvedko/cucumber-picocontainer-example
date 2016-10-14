@@ -1,4 +1,4 @@
-package net.thumbtack.cucumber.picocontainer.example;
+package net.thumbtack.cucumber.picocontainer.example.step;
 
 import cucumber.api.java.en.When;
 import net.thumbtack.cucumber.picocontainer.example.util.Context;
@@ -13,7 +13,7 @@ public class MessageCreator {
         this.context = context;
     }
 
-    @When("message is created")
+    @When("^message is created$")
     public void createMessage() {
         context.setValue(Field.MESSAGE, MESSAGE);
     }
