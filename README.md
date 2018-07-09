@@ -9,7 +9,7 @@ Development Environment
 
 Download
 --------
-    git clone git@github.com:ilya-medvedev/cucumber-picocontainer-example.git
+    git clone git@github.com:imedvedko/cucumber-picocontainer-example.git
 
 Build
 -----
